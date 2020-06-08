@@ -31,7 +31,6 @@
             <artifactId>spring-boot-starter-aop</artifactId>
             <optional>true</optional>
         </dependency>
-
         <!--工具依赖-->
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -83,7 +82,6 @@
             <artifactId>lombok</artifactId>
             <scope>compile</scope>
         </dependency>
-
         <!--辅助依赖-->
         <!--生成spring-autoconfigure-metadata.properties文件，配置将会自动提示-->
         <dependency>

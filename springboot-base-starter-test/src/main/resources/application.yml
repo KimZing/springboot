@@ -1,11 +1,11 @@
 server:
-  port: @port@
+  port: @profile.port@
   servlet:
-    context-path: @path@
+    context-path: @profile.path@
 
 spring:
   profiles:
-    active: dev
+    active: @profile.active@
   application:
     name: @project.name@
     version: @project.version@

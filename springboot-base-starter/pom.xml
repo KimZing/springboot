@@ -13,7 +13,7 @@
     <!-- -SNAPSHOT -RELEASE -->
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-base-starter</name>
-    <description>base starter for Spring Boot, include utils、log and so on</description>
+    <description>封装SpringBoot开发中常用的功能，抽象为基础能力，通过简单的配置即可实现相应功能</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -21,11 +21,6 @@
 
     <dependencies>
         <!--可选依赖-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-            <optional>true</optional>
-        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -104,6 +99,14 @@
         </dependency>
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>aliyun</id>
+            <name>aliyun</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
+
     <distributionManagement>
         <repository>
             <id>releases</id>
@@ -149,20 +152,6 @@
             </plugin>
         </plugins>
     </build>
-
-    <licenses>
-        <license>
-            <name>The Apache Software License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
-
-    <scm>
-        <url>https://github.com/KimZing/springboot-starter.git</url>
-        <connection>https://github.com/KimZing/springboot-starter.git</connection>
-        <developerConnection>https://github.com/KimZing/springboot-starter.git</developerConnection>
-    </scm>
 
     <developers>
         <developer>

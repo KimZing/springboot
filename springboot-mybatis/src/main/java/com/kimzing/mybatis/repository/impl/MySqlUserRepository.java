@@ -25,7 +25,9 @@ public interface MySqlUserRepository {
             "<if test='password!=null'>password = #{password},</if>" +
             "<if test='age!=null'>age = #{age},</if>" +
             "<if test='gender!=null'>gender = #{gender},</if>" +
-            "</set></script>")
+            "</set>" +
+            "<where>id = #{id}</where>" +
+            "</script>")
     void update(UserPO userPO);
 
     @Select("SELECT * FROM `user` WHERE id = #{id}")

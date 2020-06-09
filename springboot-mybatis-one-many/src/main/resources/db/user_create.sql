@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS `user`
     KEY `index_gender` (`gender`) USING BTREE COMMENT '性别'
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
-  COLLATE = utf8mb4_bin;
+  COLLATE = utf8mb4_general_ci;
 
 CREATE TABLE IF NOT EXISTS `address`
 (
@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `address`
     PRIMARY KEY (`id`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
-  COLLATE = utf8mb4_bin;
+  COLLATE = utf8mb4_general_ci;
 
 CREATE TABLE IF NOT EXISTS `car`
 (
@@ -36,4 +36,4 @@ CREATE TABLE IF NOT EXISTS `car`
     PRIMARY KEY (`id`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
-  COLLATE = utf8mb4_bin;
+  COLLATE = utf8mb4_general_ci;

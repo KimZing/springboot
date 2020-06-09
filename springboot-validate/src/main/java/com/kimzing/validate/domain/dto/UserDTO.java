@@ -1,4 +1,4 @@
-package com.kimzing.web.domain.dto;
+package com.kimzing.validate.domain.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.kimzing.base.utils.valid.group.SaveValidGroup;

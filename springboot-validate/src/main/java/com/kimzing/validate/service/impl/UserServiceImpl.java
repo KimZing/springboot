@@ -1,8 +1,8 @@
-package com.kimzing.web.service.impl;
+package com.kimzing.validate.service.impl;
 
 import com.kimzing.base.utils.result.ApiResult;
-import com.kimzing.web.domain.dto.UserDTO;
-import com.kimzing.web.service.UserService;
+import com.kimzing.validate.domain.dto.UserDTO;
+import com.kimzing.validate.service.UserService;
 import org.springframework.stereotype.Service;
 
 /**

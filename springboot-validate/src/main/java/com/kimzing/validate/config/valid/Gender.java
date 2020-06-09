@@ -1,4 +1,4 @@
-package com.kimzing.web.config.valid;
+package com.kimzing.validate.config.valid;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;

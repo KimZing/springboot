@@ -1,10 +1,10 @@
-package com.kimzing.web.service;
+package com.kimzing.validate.service;
 
 import com.kimzing.base.utils.result.ApiResult;
 import com.kimzing.base.utils.valid.group.SaveValidGroup;
 import com.kimzing.base.utils.valid.group.UpdateValidGroup;
-import com.kimzing.web.config.valid.Gender;
-import com.kimzing.web.domain.dto.UserDTO;
+import com.kimzing.validate.config.valid.Gender;
+import com.kimzing.validate.domain.dto.UserDTO;
 import org.hibernate.validator.constraints.Length;
 import org.springframework.validation.annotation.Validated;
 

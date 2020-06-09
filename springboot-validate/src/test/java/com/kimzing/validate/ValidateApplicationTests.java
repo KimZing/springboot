@@ -1,4 +1,4 @@
-package com.kimzing.web;
+package com.kimzing.validate;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;

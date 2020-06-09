@@ -1,8 +1,8 @@
-package com.kimzing.web.controller;
+package com.kimzing.validate.controller;
 
 import com.kimzing.base.utils.result.ApiResult;
-import com.kimzing.web.domain.dto.UserDTO;
-import com.kimzing.web.service.UserService;
+import com.kimzing.validate.domain.dto.UserDTO;
+import com.kimzing.validate.service.UserService;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;

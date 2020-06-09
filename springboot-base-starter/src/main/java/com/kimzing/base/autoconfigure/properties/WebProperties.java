@@ -13,6 +13,11 @@ import java.util.Map;
 public class WebProperties {
 
     /**
+     * 支持的参数解析
+     */
+    private ParamResolverProperties resolver;
+
+    /**
      * RestTemplate属性配置
      */
     private RestTemplateProperties restTemplate;
@@ -26,6 +31,20 @@ public class WebProperties {
      * Controller异常切入
      */
     private AdviceProperties advice;
+
+    @Data
+    public static class ParamResolverProperties {
+        /**
+         * Get方法Json参数解析
+         */
+        private JsonProperties json;
+
+    }
+
+    @Data
+    public static class JsonProperties {
+        private Boolean enabled;
+    }
 
     @Data
     public static class AdviceProperties {

@@ -48,6 +48,7 @@ public class WebAutoConfiguration {
     @Bean
     @ConditionalOnProperty(prefix = "base.web.info",
             name = "enabled", havingValue = "true")
+    @ConditionalOnMissingBean(BaseInfoController.class)
     @ConditionalOnWebApplication(type = ConditionalOnWebApplication.Type.ANY)
     public BaseInfoController infoController(WebProperties webProperties) {
         BaseInfoController baseInfoController = new BaseInfoController();
@@ -84,7 +85,7 @@ public class WebAutoConfiguration {
      * @return
      */
     @Bean
-    @ConditionalOnProperty(prefix = "base.web.resolver.json",
+    @ConditionalOnProperty(prefix = "base.web.resolver.json.enabled",
             name = "enabled", havingValue = "true", matchIfMissing = true)
     @ConditionalOnWebApplication(type = ConditionalOnWebApplication.Type.SERVLET)
     public MethodParamResolverConfiguration methodParamResolverConfiguration(ApplicationContext context) {

@@ -43,7 +43,7 @@
 
 ## 项目使用
 
-:green_book:[使用文档](http://blog.kimzing.com/springboot/starter/base-springboot-starter:%E7%9B%AE%E5%BD%95/)
+:green_book:[使用文档](https://github.com/KimZing/kimzing-springboot/blob/master/springboot-base-starter/doc/learn.md)
 
 ## 结构说明
 
@@ -91,7 +91,7 @@ mvn deploy -Dmaven.test.skip=true
 
 ### 可用性
 
-* `*-springboot-starter`必须在对应的`*-springboot-starter-test`项目进行标准测试
+* `springboot-base-starter`必须在对应的`springboot-base-starter-test`项目进行标准测试
 
 ## TODO
 

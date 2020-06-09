@@ -1,7 +1,7 @@
-package com.kimzing.web.controller;
+package com.kimzing.swagger.controller;
 
 import com.kimzing.base.utils.result.ApiResult;
-import com.kimzing.web.domain.dto.UserDTO;
+import com.kimzing.swagger.domain.dto.UserDTO;
 import io.swagger.annotations.*;
 import org.springframework.web.bind.annotation.*;
 

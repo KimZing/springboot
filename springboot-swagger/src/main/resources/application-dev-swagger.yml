@@ -7,7 +7,7 @@ swagger:
   authorEmail: kimzing@163.com
   authorUrl: http://kimzing.com
   version: 1.0.0
-  basePackage: com.kimzing.web.controller
+  basePackage: com.kimzing.swagger.controller
 
 # knife开源的swagger ui配置
 knife4j:

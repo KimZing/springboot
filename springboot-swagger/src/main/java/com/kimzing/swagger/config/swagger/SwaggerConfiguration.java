@@ -1,7 +1,7 @@
-package com.kimzing.web.config.swagger;
+package com.kimzing.swagger.config.swagger;
 
 import com.github.xiaoymin.knife4j.spring.annotations.EnableKnife4j;
-import com.kimzing.web.config.swagger.properties.SwaggerProperties;
+import com.kimzing.swagger.config.swagger.properties.SwaggerProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

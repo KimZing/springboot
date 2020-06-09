@@ -1,4 +1,4 @@
-package com.kimzing.web.config.swagger.properties;
+package com.kimzing.swagger.config.swagger.properties;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

@@ -1,4 +1,4 @@
-package com.kimzing.web.domain.vo;
+package com.kimzing.swagger.domain.vo;
 
 /**
  * 性别.

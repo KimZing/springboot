@@ -1,6 +1,6 @@
-package com.kimzing.web.domain.dto;
+package com.kimzing.swagger.domain.dto;
 
-import com.kimzing.web.domain.vo.GenderEnum;
+import com.kimzing.swagger.domain.vo.GenderEnum;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

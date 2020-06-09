@@ -4,6 +4,9 @@ base:
     enabled: true
     time-pattern: yyyy-MM-dd HH:mm:ss:SSS
   web:
+    resolver:
+      json:
+        enabled: true
     advice:
       enabled: true
     restTemplate:

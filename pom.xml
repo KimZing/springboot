@@ -12,7 +12,6 @@
 
     <modules>
         <module>springboot-base-starter</module>
-        <module>springboot-base-starter-test</module>
         <module>springboot-mybatis</module>
         <module>springboot-mybatis-one-many</module>
         <module>springboot-restful</module>

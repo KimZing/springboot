@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS `user`
+CREATE TABLE IF NOT EXISTS `user2`
 (
     `id`          int(11)     NOT NULL AUTO_INCREMENT COMMENT '主键',
     `username`    varchar(20) NOT NULL UNIQUE COMMENT '用户名',
@@ -13,4 +13,4 @@ CREATE TABLE IF NOT EXISTS `user`
     KEY `index_gender` (`gender`) USING BTREE COMMENT '性别'
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4
-  COLLATE = utf8mb4_bin;
+  COLLATE = utf8mb4_general_ci;

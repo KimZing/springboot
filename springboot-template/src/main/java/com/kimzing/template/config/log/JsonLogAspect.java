@@ -1,9 +1,9 @@
 package com.kimzing.template.config.log;
 
 import com.alibaba.fastjson.JSON;
-import com.kimzing.base.log.LogAspect;
-import com.kimzing.base.log.LogInfo;
-import com.kimzing.base.utils.log.LogUtil;
+import com.kimzing.log.LogAspect;
+import com.kimzing.log.LogInfo;
+import com.kimzing.utils.log.LogUtil;
 import org.springframework.stereotype.Component;
 
 /**

@@ -1,6 +1,6 @@
 package com.kimzing.restful.service.impl;
 
-import com.kimzing.base.utils.log.LogUtil;
+import com.kimzing.utils.log.LogUtil;
 import com.kimzing.restful.service.CartService;
 import org.springframework.stereotype.Service;
 

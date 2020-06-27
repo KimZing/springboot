@@ -1,11 +1,11 @@
 package com.kimzing.mybatis.service.impl;
 
-import com.kimzing.base.utils.bean.BeanUtil;
-import com.kimzing.base.utils.result.ApiResult;
 import com.kimzing.mybatis.domain.dto.UserDTO;
 import com.kimzing.mybatis.domain.po.UserPO;
 import com.kimzing.mybatis.repository.UserRepository;
 import com.kimzing.mybatis.service.UserService;
+import com.kimzing.utils.bean.BeanUtil;
+import com.kimzing.utils.result.ApiResult;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

@@ -1,5 +1,5 @@
 ### 查询用户  缺失用户名
-GET http://localhost:8080/api/user/name
+GET http://localhost:8080/user/name
 
 ### 查询用户  用户名长度
 GET http://localhost:8080/api/user/name?name=abcdefghijk

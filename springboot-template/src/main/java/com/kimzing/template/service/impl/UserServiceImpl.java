@@ -1,8 +1,8 @@
 package com.kimzing.template.service.impl;
 
-import com.kimzing.base.utils.bean.BeanUtil;
-import com.kimzing.base.utils.page.PageResult;
-import com.kimzing.base.utils.result.ApiResult;
+import com.kimzing.utils.bean.BeanUtil;
+import com.kimzing.utils.page.PageResult;
+import com.kimzing.utils.result.ApiResult;
 import com.kimzing.template.domain.dto.UserDTO;
 import com.kimzing.template.domain.event.UserCreatedEvent;
 import com.kimzing.template.domain.po.UserPO;

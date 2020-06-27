@@ -1,8 +1,8 @@
 package com.kimzing.restful.controller;
 
-import com.kimzing.base.log.LogKim;
-import com.kimzing.base.utils.result.ApiResult;
-import com.kimzing.base.web.resolver.json.JsonParam;
+import com.kimzing.log.LogKim;
+import com.kimzing.utils.result.ApiResult;
+import com.kimzing.web.resolver.json.JsonParam;
 import com.kimzing.restful.domain.dto.UserDTO;
 import com.kimzing.restful.domain.dto.UserQueryDTO;
 import com.kimzing.restful.service.UserService;

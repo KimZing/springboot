@@ -119,10 +119,9 @@ mvn clean package -Dmaven.test.skip=true -Dprofile.active=dev
 
 * `application-dev.yml`
 
-    * 当`spring.profiles.active=dev`时，激活此配置文件，此配置文件主要引用了相应的feature配置文件，如`application-dev-base.yml`(base模块配置),
-`application-dev-datasource.yml`(数据源配置)，这样可以灵活的组装与拆分不同的配置。
+    * 当`spring.profiles.active=dev`时，激活此配置文件，此配置文件主要引用了相应的feature配置文件，如`application-dev-datasource.yml`(数据源配置)，这样可以灵活的组装与拆分不同的配置。
 
     * 例如: 需要连接某供应商(alibaba)的接口，也可以单独编写一个配置文件`application-dev-alibaba.yml`, 随后在application-dev.yml中
-添加`spring.profiles.include:dev-base,dev-datasource,dev-alibaba`。
+添加`spring.profiles.include:dev-datasource,dev-alibaba`。
 
 当然，如果你不喜欢这样拆分或者配置项不复杂，也可以在`application-dev.yml`进行所有的配置。

@@ -1,6 +1,6 @@
 package com.kimzing.template.service;
 
-import com.kimzing.base.utils.result.ApiResult;
+import com.kimzing.utils.result.ApiResult;
 import com.kimzing.template.domain.dto.UserDTO;
 
 /**

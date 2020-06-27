@@ -1,6 +1,6 @@
 package com.kimzing.restful.repository;
 
-import com.kimzing.base.utils.page.PageResult;
+import com.kimzing.utils.page.PageResult;
 import com.kimzing.restful.domain.po.UserPO;
 import com.kimzing.restful.repository.impl.MockUserRepository;
 import org.springframework.stereotype.Repository;

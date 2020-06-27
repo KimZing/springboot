@@ -1,6 +1,6 @@
 package com.kimzing.mybatis.service;
 
-import com.kimzing.base.utils.result.ApiResult;
+import com.kimzing.utils.result.ApiResult;
 import com.kimzing.mybatis.domain.dto.UserDTO;
 
 /**

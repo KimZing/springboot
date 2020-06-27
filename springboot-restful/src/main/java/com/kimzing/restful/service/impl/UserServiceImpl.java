@@ -1,8 +1,8 @@
 package com.kimzing.restful.service.impl;
 
-import com.kimzing.base.utils.bean.BeanUtil;
-import com.kimzing.base.utils.page.PageResult;
-import com.kimzing.base.utils.result.ApiResult;
+import com.kimzing.utils.bean.BeanUtil;
+import com.kimzing.utils.page.PageResult;
+import com.kimzing.utils.result.ApiResult;
 import com.kimzing.restful.domain.dto.UserDTO;
 import com.kimzing.restful.domain.dto.UserQueryDTO;
 import com.kimzing.restful.domain.event.UserCreatedEvent;

@@ -1,7 +1,7 @@
 package com.kimzing.template.controller;
 
-import com.kimzing.base.log.LogKim;
-import com.kimzing.base.utils.result.ApiResult;
+import com.kimzing.log.LogKim;
+import com.kimzing.utils.result.ApiResult;
 import com.kimzing.template.domain.dto.UserDTO;
 import com.kimzing.template.service.UserService;
 import org.springframework.web.bind.annotation.*;

@@ -1,7 +1,7 @@
 package com.kimzing.restful.repository.impl;
 
-import com.kimzing.base.utils.exception.ExceptionManager;
-import com.kimzing.base.utils.page.PageResult;
+import com.kimzing.utils.exception.ExceptionManager;
+import com.kimzing.utils.page.PageResult;
 import com.kimzing.restful.domain.po.UserPO;
 import org.springframework.stereotype.Repository;
 

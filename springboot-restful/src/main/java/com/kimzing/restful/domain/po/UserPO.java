@@ -1,6 +1,6 @@
 package com.kimzing.restful.domain.po;
 
-import com.kimzing.base.utils.po.AbstractPO;
+import com.kimzing.utils.po.AbstractPO;
 import com.kimzing.restful.domain.vo.GenderEnum;
 import lombok.Data;
 

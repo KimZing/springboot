@@ -1,12 +1,12 @@
 server:
-  port: @profile.port@
+  port: 8080
   servlet:
-    context-path: @profile.path@
+    context-path: /api
 
 spring:
   profiles:
-    active: @profile.active@
+    active: kimzing,dev
   application:
-    name: @project.name@
-    version: @project.version@
-    description: @project.description@
+    name: springboot-template
+    version: 1.0.0
+    description: 模板项目

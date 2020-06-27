@@ -1,7 +1,7 @@
 package com.kimzing.mybatis.service;
 
-import com.kimzing.base.utils.result.ApiResult;
 import com.kimzing.mybatis.domain.dto.UserDTO;
+import com.kimzing.utils.result.ApiResult;
 
 /**
  * 用户模拟服务.

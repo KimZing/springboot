@@ -1,6 +1,6 @@
 package com.kimzing.restful.service;
 
-import com.kimzing.base.utils.result.ApiResult;
+import com.kimzing.utils.result.ApiResult;
 import com.kimzing.restful.domain.dto.UserDTO;
 import com.kimzing.restful.domain.dto.UserQueryDTO;
 

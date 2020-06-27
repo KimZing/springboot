@@ -1,6 +1,6 @@
 package com.kimzing.template.service.impl;
 
-import com.kimzing.base.utils.log.LogUtil;
+import com.kimzing.utils.log.LogUtil;
 import com.kimzing.template.service.CartService;
 import org.springframework.stereotype.Service;
 

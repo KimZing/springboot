@@ -1,8 +1,8 @@
 package com.kimzing.validate.service;
 
+import com.kimzing.utils.group.SaveValidGroup;
+import com.kimzing.utils.group.UpdateValidGroup;
 import com.kimzing.utils.result.ApiResult;
-import com.kimzing.utils.valid.group.SaveValidGroup;
-import com.kimzing.utils.valid.group.UpdateValidGroup;
 import com.kimzing.validate.config.valid.Gender;
 import com.kimzing.validate.domain.dto.UserDTO;
 import org.hibernate.validator.constraints.Length;

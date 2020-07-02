@@ -3,6 +3,7 @@ package com.kimzing.mybatis.domain.po;
 import com.kimzing.utils.po.AbstractPO;
 import com.kimzing.mybatis.domain.vo.GenderEnum;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.util.List;
 
@@ -13,9 +14,8 @@ import java.util.List;
  * @since 2019/12/28 12:52
  */
 @Data
+@EqualsAndHashCode(callSuper = false)
 public class UserPO extends AbstractPO {
-
-    private Long id;
 
     private String username;
 

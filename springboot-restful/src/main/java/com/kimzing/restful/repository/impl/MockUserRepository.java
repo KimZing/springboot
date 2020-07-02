@@ -1,8 +1,8 @@
 package com.kimzing.restful.repository.impl;
 
+import com.kimzing.restful.domain.po.UserPO;
 import com.kimzing.utils.exception.ExceptionManager;
 import com.kimzing.utils.page.PageResult;
-import com.kimzing.restful.domain.po.UserPO;
 import org.springframework.stereotype.Repository;
 
 import java.time.LocalDateTime;
@@ -10,7 +10,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Objects;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.atomic.AtomicLong;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
 /**
@@ -22,14 +22,14 @@ import java.util.stream.Collectors;
 @Repository
 public class MockUserRepository {
 
-    private AtomicLong idGeneration = new AtomicLong(1L);
+    private AtomicInteger idGeneration = new AtomicInteger(1);
 
-    private static final ConcurrentHashMap<Long, UserPO> users = new ConcurrentHashMap<>();
+    private static final ConcurrentHashMap<Integer, UserPO> users = new ConcurrentHashMap<>();
 
     public Integer save(UserPO userPO) {
         boolean isNullId = Objects.isNull(userPO.getId());
         if (isNullId) {
-            Long userId = idGeneration.getAndIncrement();
+            Integer userId = idGeneration.getAndIncrement();
             userPO.setId(userId);
         }
 

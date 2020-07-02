@@ -1,6 +1,6 @@
 description "springboot集成mybatis"
 dependencies {
-    implementation 'com.kimzing:kimzing-springboot-starter:1.0.0-SNAPSHOT'
+    implementation 'com.kimzing:kimzing-springboot-starter:1.0.0'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-aop'
     implementation 'org.springframework.boot:spring-boot-starter-validation'

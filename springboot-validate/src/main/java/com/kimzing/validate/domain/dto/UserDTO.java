@@ -1,8 +1,8 @@
 package com.kimzing.validate.domain.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.kimzing.utils.valid.group.SaveValidGroup;
-import com.kimzing.utils.valid.group.UpdateValidGroup;
+import com.kimzing.utils.group.SaveValidGroup;
+import com.kimzing.utils.group.UpdateValidGroup;
 import lombok.Data;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.Range;

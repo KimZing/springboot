@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS `user2`
     `password`    varchar(50) NOT NULL COMMENT '密码',
     `age`         int(2)      NOT NULL COMMENT '年龄',
     `gender`      varchar(10) NOT NULL COMMENT '性别',
-    `creater`     varchar(20)          DEFAULT NULL COMMENT '创建人',
+    `creator`     varchar(20)          DEFAULT NULL COMMENT '创建人',
     `modifier`    varchar(20)          DEFAULT NULL COMMENT '更新人',
     `create_time` datetime    NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
     `modify_time` datetime    NOT NUll DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '修改时间',

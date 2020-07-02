@@ -1,8 +1,5 @@
 description "restful风格接口"
 
 dependencies {
-    implementation 'com.kimzing:kimzing-springboot-starter:1.0.0'
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'org.springframework.boot:spring-boot-starter-validation'
-    implementation 'org.springframework.boot:spring-boot-starter-aop'
+
 }

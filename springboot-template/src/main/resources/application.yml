@@ -4,9 +4,48 @@ server:
     context-path: /api
 
 spring:
-  profiles:
-    active: kimzing,dev
   application:
     name: springboot-template
     version: 1.0.0
     description: 模板项目
+# 数据基础设施相关配置
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+    password: 123456
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///springboot?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+# 基本属性配置
+kimzing:
+  log:
+    enabled: true
+    time-pattern: yyyy-MM-dd HH:mm:ss:SSS
+  web:
+    resolver:
+      json:
+        enabled: true
+    advice:
+      enabled: true
+    restTemplate:
+      enabled: true
+    info:
+      path: /info
+      enabled: true
+      params:
+        application: ${spring.application.name}
+        port: ${server.port}
+        profile: ${spring.profiles.active}
+        version: ${spring.application.version}
+        description: ${spring.application.description}
+  property:
+    files: ["classpath:message.properties","classpath:exception.properties"]

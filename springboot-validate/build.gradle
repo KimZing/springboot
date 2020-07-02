@@ -1,5 +1,4 @@
+description "校验注解使用"
+
 dependencies {
-    implementation 'com.kimzing:kimzing-springboot-starter:1.0.0'
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'org.springframework.boot:spring-boot-starter-validation'
 }

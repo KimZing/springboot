@@ -1,0 +1,9 @@
+description "安全框架练习"
+
+dependencies {
+    implementation 'com.kimzing:kimzing-springboot-starter:1.0.0'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.2'
+    runtimeOnly 'mysql:mysql-connector-java'
+}
